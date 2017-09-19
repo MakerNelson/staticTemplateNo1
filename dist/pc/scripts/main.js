@@ -1,0 +1,1 @@
+window.onload=function(){!function(){var e=window.innerHeight||document.body.offsetHeight||document.documentElement.clientHeight,n=e-70,t=document.getElementById("header_content");t.style.height=n+"px",window.onresize=function(){e=window.innerHeight||document.body.offsetHeight||document.documentElement.clientHeight,n=e-70,t.style.height=n+"px"}}()};
