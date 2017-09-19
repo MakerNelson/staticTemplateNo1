@@ -77,7 +77,8 @@ gulp.task('style', function() {
 
 // var imagemin = require('gulp-imagemin');    //图片压缩插件
 gulp.task('image', function() {
-    gulp.src('./src/'+clientType+'/images/**/*.{png,jpg,jpeg,gif}')
+    // gulp.src('./src/'+clientType+'/images/**/*.{png,jpg,jpeg,gif,svg}')
+    gulp.src('./src/'+clientType+'/images/**/*.*')
         // .pipe(imagemin())
         .pipe(gulp.dest('./dist/'))
         .pipe(browsersync.stream());
